@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\tanma\Documents\computer_graphics\pathtracer\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\tanma\Documents\computer_graphics\pathtracer\Pathtracer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\tanma\Documents\computer_graphics\pathtracer\sampling.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\tanma\Documents\computer_graphics\pathtracer\HDRImage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\tanma\Documents\computer_graphics\pathtracer\embree.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\tanma\Documents\computer_graphics\pathtracer\material.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\tanma\Documents\computer_graphics\pathtracer\Pathtracer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\tanma\Documents\computer_graphics\pathtracer\sampling.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\tanma\Documents\computer_graphics\pathtracer\HDRImage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\tanma\Documents\computer_graphics\pathtracer\embree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\tanma\Documents\computer_graphics\pathtracer\material.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\tanma\Documents\computer_graphics\pathtracer\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\tanma\Documents\computer_graphics\pathtracer\copyTexture.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="C:\Users\tanma\Documents\computer_graphics\pathtracer\copyTexture.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="C:\Users\tanma\Documents\computer_graphics\pathtracer\simple.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="C:\Users\tanma\Documents\computer_graphics\pathtracer\simple.vert">
+      <Filter>Shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{56BD3351-BCB2-34F1-B91C-1C98FFD69604}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{110C7879-277F-310C-A9BF-54CB77ECE48C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{0AEBA9D6-C047-3D5A-B111-F63B7A91C3C5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

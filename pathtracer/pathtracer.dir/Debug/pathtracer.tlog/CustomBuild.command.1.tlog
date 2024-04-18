@@ -1,0 +1,10 @@
+^C:\USERS\TANMA\DOCUMENTS\COMPUTER_GRAPHICS\PATHTRACER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/tanma/Documents/computer_graphics -BC:/Users/tanma/Documents/computer_graphics/build --check-stamp-file C:/Users/tanma/Documents/computer_graphics/build/pathtracer/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
